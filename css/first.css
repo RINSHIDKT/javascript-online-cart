@@ -1,0 +1,46 @@
+.search{
+    margin-left: 60%;
+    width: 100%;
+}
+#main-head{
+    color: blue;
+    font-weight: bolder;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.navbar{
+    background-color: rgb(255, 153, 0);
+}
+.btn{
+    color: white;
+    font-weight: bolder;
+    background-color: gray;
+    width: 100%;
+    padding: 60px 0px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+.btn :hover{
+    background-color: rgb(255, 153, 0);
+}
+.catagory-main{
+    background-color: black;
+    padding-top: 2%;
+}
+.card-section :hover{
+    background-color: rgb(255, 153, 0);
+    color: blue;
+}
+body{
+    background-color: black;
+}
+
+@media (min-width:300px) and (max-width:576.98px){
+    .search{
+        margin-left: 6%;
+        width: 80%;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,107 @@
+.search{
+    margin-left: 60%;
+    width: 100%;
+}
+#main-head{
+    color: blue;
+    font-weight: bolder;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.navbar{
+    background-color: rgb(255, 153, 0);
+}
+#back-btn{
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.showq{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+#body-bg{
+    background-color: black;
+}
+#img-card-height{
+       height: 150px;
+}
+#card-colors{
+    background-color: gray;
+    border: 3px solid rgb(255, 153, 0);
+    color: black;
+    font-weight: bold;
+}
+.card-title{
+    color: white;
+    font-weight: bolder;
+}
+.details-btn{
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.details-btn:hover{
+    border: 2px solid black;
+    color: black;
+    transition: 0.5s;
+    background-color: rgb(255, 153, 0);
+    /* font-weight: bolder; */
+}
+.cart-btn{
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 10px;
+}
+.cart-btn:hover{
+    border: 2px solid rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+    transition: 0.5s;
+    background-color: black;
+    /* font-weight: bolder; */
+}
+
+@media (min-width:300px) and (max-width:576.98px){
+    .showq{
+        display: inline;
+        margin: 20px;
+    }
+    .search{
+        margin-left: 6%;
+        width: 80%;
+        padding-top: 20px;
+    }
+    .card-height{
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768.98px){
+    .card-height{
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+    .showq{
+        display: inline;
+        margin: 20px;
+    }
+
+}
+@media (min-width:769px) and (max-width:992.98px){
+    .card-height{
+        padding-bottom: 10%;
+        padding-right: 1%;
+    }
+    .showq{
+        display: flex;
+    }
+}
